@@ -5,3 +5,9 @@ library(jsonlite)
 dat.1 <- fromJSON('./students.json')
 
 dat.2 <- fromJSON('./student-courses.json')
+
+#Para cargar json de una página web
+url <- 'https://finance.yahoo.com/webservice/v1/symbols/allcurrencies/quote?format=json'
+#install.packages('curl')
+library(curl)
+currencies <- fromJSON(url)
