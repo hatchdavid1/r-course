@@ -11,3 +11,6 @@ url <- 'https://finance.yahoo.com/webservice/v1/symbols/allcurrencies/quote?form
 #install.packages('curl')
 library(curl)
 currencies <- fromJSON(url)
+
+#Getting specific data from the dataset
+currency.data <- currencies$list$resources$resource$files
