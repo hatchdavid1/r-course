@@ -14,3 +14,7 @@ currencies <- fromJSON(url)
 
 #Getting specific data from the dataset
 currency.data <- currencies$list$resources$resource$files
+
+dat.1$Email
+
+currency.dat[1:5,] #[filas, columnas] se obtienen las primeras cinco filas de todas las columnas
