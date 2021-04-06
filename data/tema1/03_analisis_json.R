@@ -18,3 +18,8 @@ currency.data <- currencies$list$resources$resource$files
 dat.1$Email
 
 currency.dat[1:5,] #[filas, columnas] se obtienen las primeras cinco filas de todas las columnas
+
+dat.1[,c(2,5)] #Todas las filas de las columnas 2 y 5
+
+
+#function toJason para convertir csv a json
